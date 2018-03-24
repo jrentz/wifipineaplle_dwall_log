@@ -11,7 +11,7 @@ wifipineapple dwall增加log功能
 
 # 主要修改的地方：
 
-在运行命令的时候，加入：
+在运行命令的时候，api/module.php 加入：
 
         $time = time();
         $date = date("ymdHis",$time);
@@ -20,8 +20,8 @@ wifipineapple dwall增加log功能
         $this->execBackground("/usr/bin/python /pineapple/modules/DWall/assets/DWall.py > /pineapple/modules/DWall/log/".$date);
     
 
-其实就是把分析的字符串，记录在了文件中：
-      
+其实就是把分析的字符串，记录在了文件中,在assets/WebSocketsHandler.py 中加入print，让他打印屏幕。
+     
         print dataDict;
 
 
