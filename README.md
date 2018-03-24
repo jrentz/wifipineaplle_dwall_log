@@ -21,6 +21,7 @@ wifipineapple dwall增加log功能
     
 
 其实就是把分析的字符串，记录在了文件中,在assets/WebSocketsHandler.py 中加入print，让他打印屏幕。
+
      
         print dataDict;
 
