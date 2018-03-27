@@ -26,21 +26,29 @@ wifipineapple dwall增加log功能
 
 
 ## log后内容的格式：
+		{'url': 'http://t.wg.360-api.cn/ap/tips/browse?mid=2ea1cddeb1140c584e2af3fdd9f70e22', 'to': 'xxx.xxx.xxx.xxx', 'from': '172.16.42.192
+		{'url': 'http://s.360.cn/360game/stat.htm?pid=se&m=2ea1cddeb1140c584e2af3fdd9f70e22&ver=9.0.7.1033&s=loading&type=extyouxi&sever=9.1
+		{'url': 'http://wan.360.cn/?src=se', 'to': 'xxx.xxx.xxx.xxx', 'from': 'xxx.xxx.xxx.xxx', 'cookie': '__huid=11K07bgNFwCnhAAu7BlaPTAx5Xov
+		{'url': 'http://seupdate.360safe.com/bankmode4.ini?1842861343', 'to': '61.240.140.61', 'from': '172.16.42.192'}
+		{'to': '42.236.102.95', 'image': 'http://p0.qhimg.com/t016d59f245a828b8e3.jpg', 'from': '172.16.42.192'}
+		{'to': 'xxx.xxx.xxx.xxx', 'image': 'http://p6.yx-s.com/t01321f78ebe6c390bf.jpg', 'from': '172.16.42.192'}
+		{'to': 'xxx.xxx.xxx.xxx', 'image': 'http://p6.yx-s.com/t01dfc19ebeec81e26f.jpg', 'from': '172.16.42.192'}
+		{'to': 'xxx.xxx.xxx.xxx', 'image': 'http://p6.yx-s.com/t01e46f85933f369ab6.jpg', 'from': '172.16.42.192'}
+		{'to': 'xxx.xxx.xxx.xxx', 'image': 'http://p6.yx-s.com/t0188118c4beb970f46.jpg', 'from': '172.16.42.192'}
+		{'to': '120.52.32.31', 'image': 'http://p0.qhimg.com/t016d59f245a828b8e3.jpg', 'from': '172.16.42.192'}
+		{'to': 'xxx.xxx.xxx.xxx', 'image': 'http://p6.yx-s.com/t01cd2fd2aa60ffd533.jpg', 'from': '172.16.42.192'}
+		{'to': 'xxx.xxx.xxx.xxx', 'image': 'http://p6.yx-s.com/t014f83608163d71015.jpg', 'from': '172.16.42.192'}
+		{'url': 'http://js.passport.qihucdn.com/5.0.3.js', 'to': '42.236.102.95', 'from': '172.16.42.192'}
 
 
-		{'url': 'http://qbwup.imtt.qq.com/', 'to': '140.207.70.55', 'post': '\x00\x00\x01v\x10\x02,<LV\x08qbpcstatf\x04stat}\x00\x01\x01S\x08\x00\x01\x06\x05crypt\x18\x00\x01\x06\nlist<char>\x1d\x00\x01\x015\r\x00\x01\x010\x9a\x07\x9d8\xca&h>\x12\xa4a\xaex\xe2u17\xd4\x85\x159\xd8l2\xc3A6N\xe0D\x802\x88\x8f1z\xd6\xd0\x05\xf7_J"9Y\x12\xb8\xfa\xe5\x84\x90G\tNA\x90x\x0b`&)\xf1\xb7~\x01\x91L\xa3\xa5*r\xe1\xea3\xb9\xaeQ\xfa\xca&\xd5r\xf3X\xc6]\xca\x8a\x9f\x15\xd3\xf0\x15\xc4\'\x00\xa7\xdd\xfc\xa4K\xeb(\x1e\x89\xf1\x1f\x020\x17\xf5\xde\xa0\x96\x11\xec\x92\xa8\xe0q\x13\xf1\xc62\x04!\xea\xd1\x0b)7\xc8\x16V\x89_\x88\x9e^\xa7\xe1`\x17s\xbcib\x9c\xcf\xec\xd8\x19\xb3p79\xbdg\xb5g\xc6\x16/\\\xc9\xb8\xca\xab\x16n\xfd\xc5\xd7GaX\xc0\xdc\xa0\xf1\xe6k\xa9\xb4\r\x8cI8\x14\xe4\xc54|\x03\xf85~\xad\xedj0u5\x12\xe8>\x91\'\xfb\xe8\xd6\xcb\xcc.\x0b\xa8\xdb\x11\xb2\x16\xb5\'\xc27\x17\xe6o\xbd=\xb9\x8a^\x81\x80\xad;,4\x11\xf5\xc7!RMhx\xba\x82g\xa2\xf7\x94U\x896j\x8fd"\xb8>,\x00uC\xf2\xac\xef\xbeQ;fQo\xa7 \xbe\xf9\x96^\xf3\xaa\xd4yC\xd8\xae\n\x14F\xf2}\x86\xf7\x06\xc7-B8uj\xa0\xd7\x1e\x8c\x98\x0c\xa8\x0c', 'from': '172.16.42.192', 'cookie': 'pgv_pvi=990974976; 3g_guest_id=-8811791180292423680'}
-		{'to': '123.125.110.26', 'image': 'http://qzonestyle.gtimg.cn/qzone/em/e328029.gif', 'from': '172.16.42.192'}
-		{'to': '123.125.110.26', 'image': 'http://qzonestyle.gtimg.cn/qzone/em/e140.gif', 'from': '172.16.42.192'}
-		{'to': '123.125.110.26', 'image': 'http://qzonestyle.gtimg.cn/qzone/em/e102.gif', 'from': '172.16.42.192'}
-		{'to': '123.125.110.26', 'image': 'http://qzonestyle.gtimg.cn/qzone/em/e122.gif', 'from': '172.16.42.192'}
-		{'to': '123.125.110.26', 'image': 'http://qzonestyle.gtimg.cn/qzone/em/e113.gif', 'from': '172.16.42.192'}
-		{'to': '123.125.110.26', 'image': 'http://qzonestyle.gtimg.cn/qzone/em/e401342.gif', 'from': '172.16.42.192'}
-		{'to': '123.125.110.26', 'image': 'http://qzonestyle.gtimg.cn/qzone/em/e400323.gif', 'from': '172.16.42.192'}
-		{'to': '123.125.110.26', 'image': 'http://qzonestyle.gtimg.cn/qzone/em/e401.gif', 'from': '172.16.42.192'}
-		{'to': '123.125.110.26', 'image': 'http://qzonestyle.gtimg.cn/qzone/em/e151.gif', 'from': '172.16.42.192'}
-
-
-![](demo.png)
+## 目录文件：
+		root@gl_ar150:/sd/modules/DWall/log# ls -la
+		drwxr-xr-x    2 root     root          4096 Mar 26 19:30 .
+		drwxr-xr-x    6 111      118           4096 Mar 23 19:11 ..
+		-rw-r--r--    1 root     root             0 Mar 23 20:17 180323121756.log
+		-rw-r--r--    1 root     root       1568871 Mar 26 11:29 180323121836.log
+		-rw-r--r--    1 root     root         16384 Mar 26 19:30 180326112942.log
+		-rw-r--r--    1 root     root         28673 Mar 26 19:31 180326113030.log
 
 
 # 使用方法:(两种方法) 
