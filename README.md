@@ -64,4 +64,4 @@ wifipineapple dwall增加log功能
 直接下载我这个版本使用,替换原来的文件即可！
 
 
-## 最佳实践(https://github.com/yearnwang/wifipineaplle_dwall_log/blob/master/my_wifipineapple.md)
+## [最佳实践](https://github.com/yearnwang/wifipineaplle_dwall_log/blob/master/my_wifipineapple.md)
